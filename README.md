@@ -2,8 +2,8 @@
 Se creo un pequeño CRUD para gestionar usuarios mediante APIs.
 
 ## Instalacion
-* git clone
-* cd
+* git clone https://github.com/rodrigoguzman83/challenge-be-backo-service
+* cd challenge-be-backo-service
 * npm install
 * npm run dev
 
