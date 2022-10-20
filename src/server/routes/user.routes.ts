@@ -128,7 +128,12 @@ const router=Router()
  *           type: integer
  *           format: integer
  *           minimum: 1
- *         description: user list by id
+ *         description: update user by id
+ *       - in: body
+ *         name: body
+ *         required: true
+ *         schema:
+ *            $ref: "#/components/schemas/User"
  *     responses:
  *       200:
  *         description: OK
@@ -209,9 +214,6 @@ const router=Router()
  *     User:
  *       type: object
  *       properties:
- *         userId:
- *           type: autoincrement
- *           example: 1
  *         username:
  *           type: string
  *           required: true
